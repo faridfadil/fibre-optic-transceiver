@@ -15,6 +15,11 @@ int TickSystem::getTickCount()
 	return *TickSystem::pointerTickCount;
 }
 
+void TickSystem::resetTickCount()
+{
+	*TickSystem::pointerTickCount = 0;
+}
+
 /*
 setting the time after which the receiver should listen to the status of the photodiode
 or the time after which the transmitter should send the subsequent signal (be it ON or OFF).

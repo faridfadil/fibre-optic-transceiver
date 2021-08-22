@@ -12,6 +12,7 @@ private:
 
 public:
 	void startTickSystem();
+	void resetTickCount();
 	int getTickCount();
 	void setTickThreshold(int* thresholdValue);
 	int getTickThreshold();
